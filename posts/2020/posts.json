@@ -1,0 +1,67 @@
+{
+    "year": "2020",
+    "posts": [
+        {
+            "locale": {
+                "en": {
+                    "date": "2020-09-25",
+                    "author": "Tomoaki Morioka",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "The 2nd test post",
+                    "body": "Today I walked my dog, petted my cat, talked with my bird. Here's a photo of the dog. <img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'> Looks lovely huh? That's all. <br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["blog", "diary", "html", "dog"]
+                },
+                "ja": {
+                    "date": "2020-09-25",
+                    "author": "森岡 知映",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "テスト投稿その2",
+                    "body": "今日は犬の散歩をして、猫を撫でて、鳥と会話した。これが犬の写真です。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'>愛らしいだろ？それだけ。<br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["ブログ", "日記", "html", "犬"]
+                },
+                "ko": {
+                    "date": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "locale": {
+                "en": {
+                    "date": "2020-09-24",
+                    "author": "Tomoaki Morioka",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "",
+                    "title": "The 1st test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging in the JSON format. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <br /> Photo by Soulful Pizza from Pexels <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'>",
+                    "tag": []
+                },
+                "ja": {
+                    "date": "2020-09-24",
+                    "author": "森岡 知映",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "",
+                    "title": "最初のテスト投稿",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をJSONフォーマットで試験中です。",
+                    "tag": []
+                },
+                "ko": {
+                    "date": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        }
+    ]
+}

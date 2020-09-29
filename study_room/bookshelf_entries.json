@@ -1,0 +1,493 @@
+{
+    "owner": "Tomoaki Morioka",
+    "categories": [
+        {
+            "category_name": {
+                "en": "Careers/Education",
+                "ja": "キャリア/教育"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Computer Science",
+                "ja": "コンピュータサイエンス"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Design Specific",
+                "ja": "デザイン専門"
+            }
+        },
+        {
+            "category_name": {
+                "en": "English",
+                "ja": "英語"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Essential",
+                "ja": "必須"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Japanese",
+                "ja": "国語"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Languages",
+                "ja": "言語"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Productivity/Creativity",
+                "ja": "仕事効率化/クリエイティビティ"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Information Technology/Cyber Security",
+                "ja": "情報技術/サイバーセキュリティ"
+            }
+        },
+        {
+            "category_name": {
+                "en": "Web development",
+                "ja": "Web開発"
+            }
+        }
+    ],
+    "bookshelf_entries": {
+        "closed": [
+            {
+                "item_code": "busuu",
+                "status": "closed",
+                "category_name": "Languages",
+                "item_title": "busuuで英語を学びましょう！",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "duolingo",
+                "status": "closed",
+                "category_name": "Languages",
+                "item_title": "Duolingo",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "sololearn",
+                "status": "closed",
+                "category_name": "Computer Science",
+                "item_title": "SoloLearn: Learn to Code",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "progate",
+                "status": "closed",
+                "category_name": "Computer Science",
+                "item_title": "Progate -楽しく学べるプログラミング学習アプリ",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "computer_science",
+                "status": "closed",
+                "category_name": "Computer Science",
+                "item_title": "Codecademy Pro",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "html",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "HTML",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "css",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "CSS",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "github",
+                "status": "closed",
+                "category_name": "Computer Science",
+                "item_title": "GitHub",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "bootstrap",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "Bootstrap",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "sass",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "Sass",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "json",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "JSON",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "npm",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "npm",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "freecodecamp",
+                "status": "closed",
+                "category_name": "Computer Science",
+                "item_title": "freeCodeCamp",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "regular_expressions",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "Regular Expressions",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "html_css",
+                "status": "closed",
+                "category_name": "Web development",
+                "item_title": "HTML/CSS",
+                "item_image_url": ""
+            }
+        ],
+        "open": [
+            {
+                "item_code": "javascript",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "Javascript",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "python",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "Python",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "the_c_programming_language",
+                "status": "open",
+                "category_name": "Computer Science",
+                "item_title": "C",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "mysql",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "MySQL",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "react",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "React",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "electron",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "Electron",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "jquery",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "jQuery",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "node_js",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "Node.js",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "ajax",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "AJAX",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "typescript",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "TypeScript",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "davinci_resolve",
+                "status": "open",
+                "category_name": "Productivity/Creativity",
+                "item_title": "DaVinci Resolve",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "gatsby",
+                "status": "open",
+                "category_name": "Web development",
+                "item_title": "Gatsby",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "internet_protocols",
+                "status": "open",
+                "category_name": "Information Technology/Cyber Security",
+                "item_title": "Internet Protocols",
+                "item_image_url": ""
+            }
+        ],
+        "in_progress": [
+            {
+                "item_code": "khan_academy",
+                "status": "in_progress",
+                "category_name": "Careers/Education",
+                "item_title": "Khan Academy",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "coursera",
+                "status": "in_progress",
+                "category_name": "Careers/Education",
+                "item_title": "Coursera",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "microsoft_excel",
+                "status": "in_progress",
+                "category_name": "Productivity/Creativity",
+                "item_title": "Microsoft Excel",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "microsoft_word",
+                "status": "in_progress",
+                "category_name": "Productivity/Creativity",
+                "item_title": "Microsoft Word",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "microsoft_powerpoint",
+                "status": "in_progress",
+                "category_name": "Productivity/Creativity",
+                "item_title": "Microsoft PowerPoint",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "gimp",
+                "status": "in_progress",
+                "category_name": "Productivity/Creativity",
+                "item_title": "GIMP",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "html_css_javascript_sass_bootstrap",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "HTML/CSS/JavaScript/SASS/Bootstrap",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "computer_science",
+                "status": "in_progress",
+                "category_name": "Computer Science",
+                "item_title": "Computer Science",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "adobe_photoshop",
+                "status": "in_progress",
+                "category_name": "Productivity/Creativity",
+                "item_title": "Adobe Photoshop",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "adobe_illustrator",
+                "status": "in_progress",
+                "category_name": "Productivity/Creativity",
+                "item_title": "Adobe Illustrator",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "sql",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "SQL",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "git",
+                "status": "in_progress",
+                "category_name": "Computer Science",
+                "item_title": "Git",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "php",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "PHP",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "ftp",
+                "status": "in_progress",
+                "category_name": "Information Technology/Cyber Security",
+                "item_title": "FTP",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "markdown",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "Markdown",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "english",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "English",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "japanese",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "Japanese",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "search_engine_optimization",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "SEO",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "programming",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "Programming",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "bash_zsh",
+                "status": "in_progress",
+                "category_name": "Computer Science",
+                "item_title": "Bash/Zsh",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "adobe_creative_cloud",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "Adobe Creative Cloud",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "microsoft_office",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "Microsoft Office",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "wordpress",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "WordPress",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "i18n_l10n",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "i18n/l10n",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "web_development",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "Web Development",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "xml",
+                "status": "in_progress",
+                "category_name": "Web development",
+                "item_title": "XML",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "design",
+                "status": "in_progress",
+                "category_name": "Essential",
+                "item_title": "Design",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "adobe_xd",
+                "status": "in_progress",
+                "category_name": "Design Specific",
+                "item_title": "Adobe XD",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "http",
+                "status": "in_progress",
+                "category_name": "Information Technology/Cyber Security",
+                "item_title": "HTTP",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "ssh",
+                "status": "in_progress",
+                "category_name": "Information Technology/Cyber Security",
+                "item_title": "SSH",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "world_wide_web",
+                "status": "in_progress",
+                "category_name": "Information Technology/Cyber Security",
+                "item_title": "WWW",
+                "item_image_url": ""
+            },
+            {
+                "item_code": "ssl_tls",
+                "status": "in_progress",
+                "category_name": "Information Technology/Cyber Security",
+                "item_title": "SSL/TLS",
+                "item_image_url": ""
+            }
+        ]
+    }
+}
