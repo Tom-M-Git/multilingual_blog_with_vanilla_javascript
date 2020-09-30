@@ -8,14 +8,18 @@ thePromise.then((res)=>{
         let values = Object.values(post.locale);
         console.log(values);
         values.forEach((value)=>{
-            console.log(value.body);
+            //console.log(value.body);
             let regex = /(?<=<img.*)(?<=src="|src=')(?!http)[^'"]+(?='|")/mg;
             let matched = value.body.match(regex);
             value.body = value.body.replace(regex, "./posts/2020/" + matched);
 
-            value.thumbnail_url = value.thumbnail_url.replace(/.*/, "./posts/2020/" + value.thumbnail_url);
+            let newThumbnailUrl = "";
+            if(value.thumbnail_url != ""){
+                newThumbnailUrl = value.thumbnail_url.replace(/.*/, `<img class="post-thumbnail" src="./posts/2020/${value.thumbnail_url}" alt="thumbnail" />`);
+            }
+
             document.querySelector("#post-container").innerHTML += `
-                <img class="post-thumbnail" src="${value.thumbnail_url}" alt="thumbnail"/>
+                ${newThumbnailUrl}
                 <div class="post-title">${value.title}</div>
                 <div class="post">${value.body}</div>
             `;
