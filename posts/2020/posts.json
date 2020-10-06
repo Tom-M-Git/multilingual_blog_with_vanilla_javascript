@@ -2,6 +2,38 @@
     "year": "2020",
     "posts": [
         {
+            "date": "2020-09-28",
+            "locale": {
+                "en": {
+                    "date_local": "Sep. 28, 2020",
+                    "author": "Tomoaki Morioka",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 5th test post",
+                    "body": "This is the 5th post. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, natus vero alias reprehenderit nostrum repellat earum totam mollitia eos provident atque at cumque ipsam.<img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <br /> Photo by Soulful Pizza from Pexels <br />",
+                    "tag": ["blog", "diary", "html"]
+                },
+                "ja": {
+                    "date_local": "2020年9月28日",
+                    "author": "森岡 知映",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その5",
+                    "body": "5つ目の投稿です。ローレム イプスム ドロール スィット アメット、コンセクテトゥル アディピスィング エリート。ドロレム、ナトゥス ヴェロ アリアス レプレヘンデリット ノストルム レペラット エアルム トータム モリティーアエオス プロヴィデント アトゥケ アト クムケ イプサム。<img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <br /> Photo by Soulful Pizza from Pexels <br />",
+                    "tag": ["ブログ", "日記", "html"]
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
             "date": "2020-09-27",
             "locale": {
                 "en": {
@@ -106,7 +138,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "",
                     "title": "The 1st test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging in the JSON format. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <br /> Photo by Soulful Pizza from Pexels <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging in the JSON format. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -115,7 +147,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "",
                     "title": "最初のテスト投稿",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をJSONフォーマットで試験中です。",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をJSONフォーマットで試験中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
