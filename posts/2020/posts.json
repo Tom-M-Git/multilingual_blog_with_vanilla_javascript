@@ -2,27 +2,60 @@
     "year": "2020",
     "posts": [
         {
+            "date": "2020-09-27",
             "locale": {
                 "en": {
-                    "date": "2020-09-25",
+                    "date_local": "Sep. 27, 2020",
                     "author": "Tomoaki Morioka",
                     "category": "Diary",
-                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
-                    "title": "The 2nd test post",
-                    "body": "Today I walked my dog, petted my cat, talked with my bird. Here's a photo of the dog. <img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'> Looks lovely huh? That's all. <br/><em>Photo by Chevanon Photography from Pexels</em>",
-                    "tag": ["blog", "diary", "html", "dog"]
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 4th test post",
+                    "body": "This is the 4th post. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, natus vero alias reprehenderit nostrum repellat earum totam mollitia eos provident atque at cumque ipsam.<img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <br /> Photo by Soulful Pizza from Pexels <br />",
+                    "tag": ["blog", "diary", "html"]
                 },
                 "ja": {
-                    "date": "2020-09-25",
+                    "date_local": "2020年9月27日",
                     "author": "森岡 知映",
                     "category": "日記",
-                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
-                    "title": "テスト投稿その2",
-                    "body": "今日は犬の散歩をして、猫を撫でて、鳥と会話した。これが犬の写真です。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'>愛らしいだろ？それだけ。<br/><em>Photo by Chevanon Photography from Pexels</em>",
-                    "tag": ["ブログ", "日記", "html", "犬"]
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その4",
+                    "body": "4つ目の投稿です。ローレム イプスム ドロール スィット アメット、コンセクテトゥル アディピスィング エリート。ドロレム、ナトゥス ヴェロ アリアス レプレヘンデリット ノストルム レペラット エアルム トータム モリティーアエオス プロヴィデント アトゥケ アト クムケ イプサム。<img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <br /> Photo by Soulful Pizza from Pexels <br />",
+                    "tag": ["ブログ", "日記", "html"]
                 },
                 "ko": {
-                    "date": "",
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-09-26",
+            "locale": {
+                "en": {
+                    "date_local": "Sep. 26, 2020",
+                    "author": "Tomoaki Morioka",
+                    "category": "Diary",
+                    "thumbnail_url": "",
+                    "title": "The 3rd test post",
+                    "body": "This is the 3rd post! Nothing to write! Hurrah!",
+                    "tag": ["blog", "diary", "html"]
+                },
+                "ja": {
+                    "date_local": "2020年9月26日",
+                    "author": "森岡 知映",
+                    "category": "日記",
+                    "thumbnail_url": "",
+                    "title": "テスト投稿その3",
+                    "body": "3つ目の投稿です！書くことがありません！やったな！",
+                    "tag": ["ブログ", "日記", "html"]
+                },
+                "ko": {
+                    "date_local": "",
                     "author": "",
                     "category": "",
                     "thumbnail_url": "",
@@ -33,9 +66,42 @@
             }
         },
         {
+            "date": "2020-09-26",
             "locale": {
                 "en": {
-                    "date": "2020-09-24",
+                    "date_local": "Sep. 25, 2020",
+                    "author": "Tomoaki Morioka",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "The 2nd test post",
+                    "body": "Today I walked my dog, petted my cat, talked with my bird. Here's a photo of the dog. <img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'> Looks lovely huh? That's all. <br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["blog", "diary", "html", "dog"]
+                },
+                "ja": {
+                    "date_local": "2020年9月25日",
+                    "author": "森岡 知映",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "テスト投稿その2",
+                    "body": "今日は犬の散歩をして、猫を撫でて、鳥と会話した。これが犬の写真です。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'>愛らしいだろ？それだけ。<br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["ブログ", "日記", "html", "犬"]
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-09-24",
+            "locale": {
+                "en": {
+                    "date_local": "Sep. 24, 2020",
                     "author": "Tomoaki Morioka",
                     "category": "Uncategorized",
                     "thumbnail_url": "",
@@ -44,7 +110,7 @@
                     "tag": []
                 },
                 "ja": {
-                    "date": "2020-09-24",
+                    "date_local": "2020年9月24日",
                     "author": "森岡 知映",
                     "category": "カテゴリーなし",
                     "thumbnail_url": "",
@@ -53,7 +119,7 @@
                     "tag": []
                 },
                 "ko": {
-                    "date": "",
+                    "date_local": "",
                     "author": "",
                     "category": "",
                     "thumbnail_url": "",

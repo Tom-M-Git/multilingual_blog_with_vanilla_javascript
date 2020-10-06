@@ -20,31 +20,18 @@ thePromise.then((res)=>{
                 }
 
                 document.querySelector("#post-container").innerHTML += `
-                    ${newThumbnailUrl}
-                    <div class="post-title">${value.title}</div>
-                    <div class="post">${value.body}</div>
+                    <div class="post">
+                        <div class="post-header">
+                            ${newThumbnailUrl}
+                            <h2 class="post-title">${value.title}</h2>
+                            <span class="post-author">By ${value.author}</span>
+                            <span class="post-date">${value.date_local}</span>
+                        </div>
+                        <div class="post-body">${value.body}</div>
+                    </div>
                 `;
             }
         });
-        // let values = Object.values(post.locale);
-        // console.log(values);
-        // values.forEach((value)=>{
-        //     //console.log(value.body);
-        //     let regex = /(?<=<img.*)(?<=src="|src=')(?!http)[^'"]+(?='|")/img;
-        //     let matched = value.body.match(regex);
-        //     value.body = value.body.replace(regex, "./posts/2020/" + matched);
-
-        //     let newThumbnailUrl = "";
-        //     if(value.thumbnail_url != ""){
-        //         newThumbnailUrl = value.thumbnail_url.replace(/.*/, `<img class="post-thumbnail" src="./posts/2020/${value.thumbnail_url}" alt="thumbnail" />`);
-        //     }
-
-        //     document.querySelector("#post-container").innerHTML += `
-        //         ${newThumbnailUrl}
-        //         <div class="post-title">${value.title}</div>
-        //         <div class="post">${value.body}</div>
-        //     `;
-        // });
     });
     // let postImg = document.querySelectorAll(".post img[src^='img']");
     // for (let i=0;i<postImg.length;i++){
