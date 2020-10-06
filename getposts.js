@@ -21,10 +21,15 @@ thePromise.then((res)=>{
                 newThumbnailUrl = value.thumbnail_url.replace(/.*/, `<img class="post-thumbnail" src="../posts/2020/${value.thumbnail_url}" alt="thumbnail" />`);
             }
 
+            let newAuthorIconUrl = "";
+            if(value.author_icon_url != ""){
+                newAuthorIconUrl = value.author_icon_url.replace(/.*/, `<img class="post-author-icon" src="../posts/2020/${value.author_icon_url}" alt="icon" />`);
+            }
+
             document.querySelector("#post-container").innerHTML += `
                 <div class="post">
                     <div class="post-header">
-                        ${newThumbnailUrl}
+                        ${newAuthorIconUrl}
                         <h2 class="post-title">${value.title}</h2>
                         <span class="post-author">By ${value.author}</span>
                         <span class="post-date">${value.date_local}</span>
@@ -34,7 +39,7 @@ thePromise.then((res)=>{
             `;
         }
         /* THE FUNCTION ENDS --------------------------- */
-        console.log(post.locale.en);
+        //console.log(post.locale.en);
         if(!lang){
             displayPosts(post.locale.en);
         }

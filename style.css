@@ -27,8 +27,8 @@
     align-content: start;
     grid-template-areas:
         "title title"
-        "thumbnail author"
-        "thumbnail date";
+        "author-icon author"
+        "author-icon date";
 }
 #post-container .post-thumbnail{
     grid-area: thumbnail;
@@ -38,6 +38,11 @@
 }
 #post-container .post-author{
     grid-area: author;
+}
+#post-container .post-author-icon{
+    grid-area: author-icon;
+    border-radius: 50%;
+    width: 100px;
 }
 #post-container .post-date {
     grid-area: date;
