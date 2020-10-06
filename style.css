@@ -54,3 +54,9 @@
 .post-body img {
     display: block;
 }
+#post-container #no-content {
+    position: relative;
+    text-align: center;
+    margin-top: 10rem;
+    color: rgb(100, 100, 100);
+}

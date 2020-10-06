@@ -8,6 +8,16 @@ thePromise.then((res)=>{
     jsonData.posts.forEach((post)=>{
         let entries = Object.entries(post.locale);
         //console.log(entries);
+
+        /* Making Permalinks --------------------------------- */
+        let englishTitle = post.locale.en.title;
+        englishTitle = englishTitle.toLowerCase();
+        englishTitle = englishTitle.replace(/[\W_\s]+/igm, "_");
+        let postDate = post.date.replace(/-/g, "_");
+        let permalink = postDate + "_" + englishTitle;
+        console.log(permalink);
+        /* Permalinks End ------------------------------------- */
+
         /* A FUNCTION TO INSERT CONTENT TO DOM ---------------- */
         function displayPosts(value){
 
@@ -27,10 +37,10 @@ thePromise.then((res)=>{
             }
 
             document.querySelector("#post-container").innerHTML += `
-                <div class="post">
+                <div class="post" id="${permalink}">
                     <div class="post-header">
                         ${newAuthorIconUrl}
-                        <h2 class="post-title">${value.title}</h2>
+                        <h2 class="post-title"><a href="#${permalink}">${value.title}</a></h2>
                         <span class="post-author">By ${value.author}</span>
                         <span class="post-date">${value.date_local}</span>
                     </div>
@@ -49,6 +59,13 @@ thePromise.then((res)=>{
             }
         });
     });
+    /* DELETE NO CONTENT MESSAGE IF ANY CONTENT IS AVAILABLE */
+    if(!document.querySelector("#post-container .post")){
+        let noContent = document.querySelector("#post-container");
+        noContent.innerHTML = `<h1 id="no-content">No Content</h1>`;
+    }
+    /* NO CONTENT END -------------------------------------- */
+
     // let postImg = document.querySelectorAll(".post img[src^='img']");
     // for (let i=0;i<postImg.length;i++){
     //     let postImgSource = postImg[i].attributes.getNamedItem("src").value;
