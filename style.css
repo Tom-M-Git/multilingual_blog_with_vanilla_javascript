@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+#post-container {
+    margin-top: 3rem;
+}
 #post-container .post{
     margin: 0 auto 2rem auto;
     padding: 1rem;
@@ -14,8 +16,8 @@
     grid-template-areas:
         "header"
         "body";
-    box-shadow: 0 0 10px 0px rgba(50, 50, 50, 0.3);
-    border-radius: 7px;
+    box-shadow: 0 5px 10px 0px rgba(100, 100, 100, 0.4);
+    border-radius: 5px;
 }
 #post-container .post-header {
     grid-area: header;

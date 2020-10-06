@@ -1,4 +1,4 @@
-const thePromise = fetch("posts/2020/posts.json");
+const thePromise = fetch("../posts/2020/posts.json");
 thePromise.then((res)=>{
     return res.json();
 }).then((jsonData)=>{
@@ -10,13 +10,15 @@ thePromise.then((res)=>{
         //console.log(entries);
         /* A FUNCTION TO INSERT CONTENT TO DOM ---------------- */
         function displayPosts(value){
+
+            if(value.body == ""){return;}
             let regex = /(?<=<img.*)(?<=src="|src=')(?!http)[^'"]+(?='|")/img;
             let matched = value.body.match(regex);
-            value.body = value.body.replace(regex, "./posts/2020/" + matched);
+            value.body = value.body.replace(regex, "../posts/2020/" + matched);
 
             let newThumbnailUrl = "";
             if(value.thumbnail_url != ""){
-                newThumbnailUrl = value.thumbnail_url.replace(/.*/, `<img class="post-thumbnail" src="./posts/2020/${value.thumbnail_url}" alt="thumbnail" />`);
+                newThumbnailUrl = value.thumbnail_url.replace(/.*/, `<img class="post-thumbnail" src="../posts/2020/${value.thumbnail_url}" alt="thumbnail" />`);
             }
 
             document.querySelector("#post-container").innerHTML += `
