@@ -1,4 +1,5 @@
 const locationHash = location.hash;
+if(!locationHash){window.open("./archive.html", "_self");}
 /* RESET HREFS OF LANGUAGE SWITCHERS */
 let languageSwitchers = document.querySelectorAll(".language");
 languageSwitchers.forEach(languageSwitcher => {
@@ -8,16 +9,15 @@ languageSwitchers.forEach(languageSwitcher => {
     console.log(languageHref);
 });
 /* RESETTING END ------------------- */
+let titleEl = document.getElementsByTagName("title");
+const lang = document.querySelector("html").getAttribute("lang");
 const thePromise = fetch("../posts/2020/posts.json");
 thePromise.then((res)=>{
     return res.json();
 }).then((jsonData)=>{
-    //console.log(jsonData.posts);
-    const lang = document.querySelector("html").getAttribute("lang");
-    //console.log(lang);
+
     jsonData.posts.forEach((post)=>{
         let entries = Object.entries(post.locale);
-        //console.log(entries);
 
         /* Making Permalinks --------------------------------- */
         let englishTitle = post.locale.en.title;
@@ -62,10 +62,12 @@ thePromise.then((res)=>{
         if(permalink == locationHash){
             if(!lang){
                 displayPosts(post.locale.en);
+                titleEl[0].innerText = post.locale.en.title;
             }
             entries.forEach( ([key, value]) => {
                 if(key == lang){
                     displayPosts(value);
+                    titleEl[0].innerText = value.title;
                 }
             });
         }

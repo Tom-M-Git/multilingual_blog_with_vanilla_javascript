@@ -1,10 +1,11 @@
+const lang = document.querySelector("html").getAttribute("lang");
+//console.log(lang);
 const thePromise = fetch("../posts/2020/posts.json");
 thePromise.then((res)=>{
     return res.json();
 }).then((jsonData)=>{
     //console.log(jsonData.posts);
-    const lang = document.querySelector("html").getAttribute("lang");
-    //console.log(lang);
+
     jsonData.posts.forEach((post)=>{
         let entries = Object.entries(post.locale);
         //console.log(entries);
