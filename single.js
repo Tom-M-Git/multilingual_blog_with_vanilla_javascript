@@ -1,3 +1,13 @@
+const locationHash = location.hash;
+/* RESET HREFS OF LANGUAGE SWITCHERS */
+let languageSwitchers = document.querySelectorAll(".language");
+languageSwitchers.forEach(languageSwitcher => {
+    let languageHref = languageSwitcher.getAttribute("href");
+    languageHref = languageHref.replace(/^#/, "");
+    languageSwitcher.setAttribute("href", languageHref + locationHash);
+    console.log(languageHref);
+});
+/* RESETTING END ------------------- */
 const thePromise = fetch("../posts/2020/posts.json");
 thePromise.then((res)=>{
     return res.json();
@@ -14,7 +24,7 @@ thePromise.then((res)=>{
         englishTitle = englishTitle.toLowerCase();
         englishTitle = englishTitle.replace(/[\W_\s]+/igm, "_");
         let postDate = post.date.replace(/-/g, "_");
-        let permalink = postDate + "_" + englishTitle;
+        let permalink = "#" + postDate + "_" + englishTitle;
         console.log(permalink);
         /* Permalinks End ------------------------------------- */
 
@@ -40,7 +50,7 @@ thePromise.then((res)=>{
                 <div class="post" id="${permalink}">
                     <div class="post-header">
                         ${newAuthorIconUrl}
-                        <h2 class="post-title"><a href="./post.html#${permalink}">${value.title}</a></h2>
+                        <h2 class="post-title"><a href="./post.html${permalink}">${value.title}</a></h2>
                         <span class="post-author">By ${value.author}</span>
                         <span class="post-date">${value.date_local}</span>
                     </div>
@@ -49,15 +59,16 @@ thePromise.then((res)=>{
             `;
         }
         /* THE FUNCTION ENDS --------------------------- */
-        //console.log(post.locale.en);
-        if(!lang){
-            displayPosts(post.locale.en);
-        }
-        entries.forEach( ([key, value]) => {
-            if(key == lang){
-                displayPosts(value);
+        if(permalink == locationHash){
+            if(!lang){
+                displayPosts(post.locale.en);
             }
-        });
+            entries.forEach( ([key, value]) => {
+                if(key == lang){
+                    displayPosts(value);
+                }
+            });
+        }
     });
     /* DELETE NO CONTENT MESSAGE IF ANY CONTENT IS AVAILABLE */
     if(!document.querySelector("#post-container .post")){
@@ -65,12 +76,4 @@ thePromise.then((res)=>{
         noContent.innerHTML = `<h1 id="no-content">No Content</h1>`;
     }
     /* NO CONTENT END -------------------------------------- */
-
-    // let postImg = document.querySelectorAll(".post img[src^='img']");
-    // for (let i=0;i<postImg.length;i++){
-    //     let postImgSource = postImg[i].attributes.getNamedItem("src").value;
-    //     postImgSource = "./posts/2020/" + postImgSource;
-    //     console.log(postImgSource);
-    //     postImg[i].setAttribute("src", postImgSource);
-    // }
 });
