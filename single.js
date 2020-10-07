@@ -76,6 +76,7 @@ thePromise.then((res)=>{
     if(!document.querySelector("#post-container .post")){
         let noContent = document.querySelector("#post-container");
         noContent.innerHTML = `<h1 id="no-content">No Content</h1>`;
+        titleEl[0].innerText = "No Content";
     }
     /* NO CONTENT END -------------------------------------- */
 });
