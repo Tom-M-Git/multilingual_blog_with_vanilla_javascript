@@ -60,3 +60,20 @@
     margin-top: 10rem;
     color: rgb(100, 100, 100);
 }
+#post-area {
+    width: 100%;
+}
+#post-area #page-nav {
+    width: min-content;
+    margin: auto;
+}
+#post-area #page-nav #page-nav-list {
+    display: flex;
+    list-style: none;
+}
+#post-area #page-nav #page-nav-list #page-nav-list-first {
+    margin-right: 1rem;
+}
+#post-area #page-nav #page-nav-list #page-nav-list-last {
+    margin-left: 1rem;
+}

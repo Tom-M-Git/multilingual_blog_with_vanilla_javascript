@@ -2,6 +2,280 @@
     "year": "2020",
     "posts": [
         {
+            "date": "2020-10-09",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 09, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 16th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月9日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その16",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-08",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 08, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 15th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月8日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その15",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-07",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 07, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 14th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月7日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その14",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-06",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 06, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 13th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月6日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その13",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-5",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 05, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "The 12th test post",
+                    "body": "Today, again I walked my dog, petted my cat and talked with my bird. Here's a photo of the dog. <img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'> Looks lovely huh? That's all. <br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["blog", "diary", "html", "dog"]
+                },
+                "ja": {
+                    "date_local": "2020年10月5日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "テスト投稿その12",
+                    "body": "今日も犬の散歩をして、猫を撫でて、鳥と会話した。これが犬の写真です。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'>愛らしいだろ？それだけ。<br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["ブログ", "日記", "html", "犬"]
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-4",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 04, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "The 11th test post",
+                    "body": "Today, again I walked my dog, petted my cat and talked with my bird. Here's a photo of the dog. <img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'> Looks lovely huh? That's all. <br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["blog", "diary", "html", "dog"]
+                },
+                "ja": {
+                    "date_local": "2020年10月4日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "テスト投稿その11",
+                    "body": "今日も犬の散歩をして、猫を撫でて、鳥と会話した。これが犬の写真です。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'>愛らしいだろ？それだけ。<br/><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["ブログ", "日記", "html", "犬"]
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-03",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 03, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "The 10th test post",
+                    "body": "This is the 10th post. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, natus vero alias reprehenderit nostrum repellat earum totam mollitia eos provident atque at cumque ipsam.<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["blog", "diary", "html", "dog"]
+                },
+                "ja": {
+                    "date_local": "2020年10月3日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "テスト投稿その10",
+                    "body": "10つ目の投稿です。ローレム イプスム ドロール スィット アメット、コンセクテトゥル アディピスィング エリート。ドロレム、ナトゥス ヴェロ アリアス レプレヘンデリット ノストルム レペラット エアルム トータム モリティーアエオス プロヴィデント アトゥケ アト クムケ イプサム。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["ブログ", "日記", "html", "dog"]
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-02",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 02, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Diary",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "The 9th test post",
+                    "body": "This is the 9th post. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, natus vero alias reprehenderit nostrum repellat earum totam mollitia eos provident atque at cumque ipsam.<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["blog", "diary", "html", "dog"]
+                },
+                "ja": {
+                    "date_local": "2020年10月2日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "日記",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "テスト投稿その9",
+                    "body": "9つ目の投稿です。ローレム イプスム ドロール スィット アメット、コンセクテトゥル アディピスィング エリート。ドロレム、ナトゥス ヴェロ アリアス レプレヘンデリット ノストルム レペラット エアルム トータム モリティーアエオス プロヴィデント アトゥケ アト クムケ イプサム。<img src='img/pexels-chevanon-photography-1108099.jpg' alt='dog'><em>Photo by Chevanon Photography from Pexels</em>",
+                    "tag": ["ブログ", "日記", "html", "dog"]
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "img/pexels-chevanon-photography-1108099_thumb.jpg",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
             "date": "2020-10-01",
             "locale": {
                 "en": {
