@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../bootstrap.min.css">
     <title>Archive</title>
 </head>
 <body>
-    <a class="language btn btn-light" id="en" href="#">English</a>
-    <a class="language btn btn-light" id="ja" href="../ja/archive.html">日本語</a>
-    <a class="language btn btn-light" id="ko" href="../ko/archive.html">한국어</a>
-    <div id="post-container"></div>
-    <script src="../getposts.js"></script>
+    <div id="languages">
+        <a class="language" id="en" href="#"><button>English</button></a>
+        <a class="language" id="ja" href="../ja/archive.html"><button>日本語</button></a>
+        <a class="language" id="ko" href="../ko/archive.html"><button>한국어</button></a>
+    </div>
+    <div id="post-area">
+        <div id="post-container"></div>
+        <nav id="page-nav">
+            <ul id="page-nav-list"></ul>
+        </nav>
+    </div>
+    <script src="../posts.js"></script>
 </body>
 </html>

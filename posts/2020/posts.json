@@ -2,6 +2,550 @@
     "year": "2020",
     "posts": [
         {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 32nd test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その32",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 31st test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その31",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 30th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その30",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 29th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その29",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 28th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その28",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 27th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その27",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 26th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その26",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 25th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その25",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 24th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その24",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 23rd test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その23",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 22nd test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その22",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 21st test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その21",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 20th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その20",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 19th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その19",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-11",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 11, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 18th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月11日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その18",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
+            "date": "2020-10-10",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 10, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "Uncategorized",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "The 17th test post",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月10日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "カテゴリーなし",
+                    "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
+                    "title": "テスト投稿その17",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
             "date": "2020-10-09",
             "locale": {
                 "en": {

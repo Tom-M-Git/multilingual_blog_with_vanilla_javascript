@@ -3,6 +3,42 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+a {
+    text-decoration-line: none;
+}
+a:hover {
+    text-decoration-line: underline;
+}
+a:visited {
+    color: rgb(0, 0, 238);
+}
+
+button {
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#languages a {
+    margin: 0 0.5rem 0 0.5rem;
+}
+#languages button {
+    padding: 0.2em 0.5em;
+    font-size: 1.5rem;
+    height: 1.5em;
+}
+
 #post-container {
     margin-top: 3rem;
 }
@@ -22,13 +58,14 @@
 #post-container .post-header {
     grid-area: header;
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto 1fr;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
     align-content: start;
     grid-template-areas:
-        "title title"
-        "author-icon author"
-        "author-icon date";
+        "title title thumbnail"
+        "author-icon author thumbnail"
+        "author-icon date thumbnail"
+        "read read thumbnail";
 }
 #post-container .post-thumbnail{
     grid-area: thumbnail;
@@ -47,6 +84,10 @@
 #post-container .post-date {
     grid-area: date;
 }
+#post-container .post-read-more {
+    grid-area: read;
+    font-size: 1.5rem;
+} 
 #post-container .post-body {
     grid-area: body;
     padding-top: 1rem;
@@ -65,11 +106,22 @@
 }
 #post-area #page-nav {
     width: min-content;
-    margin: auto;
+    margin: auto auto 3rem auto;
 }
 #post-area #page-nav #page-nav-list {
     display: flex;
     list-style: none;
+}
+#post-area #page-nav #page-nav-list button {
+    font-size: 1.9rem;
+    width: 1.5em;
+    height: 1.5em;
+}
+.page-nav-list-button {
+
+}
+.current-page-button {
+
 }
 #post-area #page-nav #page-nav-list #page-nav-list-first {
     margin-right: 1rem;
