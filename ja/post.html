@@ -7,12 +7,23 @@
     <title>Post</title>
 </head>
 <body>
+    <header id="header">
+        <h1 id="title"><a href="./archive.html">バニラJSとJSONでマルチリンガルブログ</a></h1><span>—</span><h1 id="page-title">記事</h1><span>—</span>
+        <h3 id="title-caption">模擬ウェブサイトProject</h3>
+    </header>
     <div id="languages">
-        <a class="language btn btn-light" id="en" href="../en/post.html"><button>English</button></a>
-        <a class="language btn btn-light" id="ja" href="#"><button>日本語</button></a>
-        <a class="language btn btn-light" id="ko" href="../ko/post.html"><button>한국어</button></a>
+        <a class="language" id="en" href="../en/post.html"><button>English</button></a>
+        <a class="language" id="ja" href="#"><button>日本語</button></a>
+        <a class="language" id="ko" href="../ko/post.html"><button>한국어</button></a>
     </div>
-    <div id="post-container"></div>
+    <div id="post-area">
+        <div id="post-container"></div>
+    </div>
+    <a class="go-back-anchor" href="./archive.html"><button class="go-back-button">一覧へ戻る</button></a>
+    <footer id="footer">
+        <p>これは模擬ブログです。Aboutページ以外の全ての記事に掲載された情報は例文です。</p>
+        <p>&copy;2020 by Tomoaki Morioka—Japan. All Rights Reserved.</p>
+    </footer>
     <script src="../single.js"></script>
 </body>
 </html>

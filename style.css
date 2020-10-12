@@ -9,12 +9,44 @@ body {
 
 a {
     text-decoration-line: none;
+    color: rgb(0, 100, 238);
 }
 a:hover {
     text-decoration-line: underline;
 }
 a:visited {
-    color: rgb(0, 0, 238);
+    color: rgb(0, 100, 238);
+}
+
+#header {
+    min-height: 5rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(170, 170, 170, 0.4);
+    padding: 1rem 2rem;
+}
+#title, #title a, #title a:hover, #page-title {
+    color: rgb(70, 70, 70);
+    text-decoration-line: none;
+}
+.js-and-json {
+    color: rgb(220, 180, 0);
+}
+#title + span, #page-title + span {
+    color: rgb(70, 70, 70);
+    margin: 0 1rem;
+}
+#page-title + span {
+    display: none;
+}
+#title-caption {
+    color: rgb(150, 150,150);
+    width: 100%;
+}
+#footer {
+    background-color: dimgrey;
+    height: 10rem;
 }
 
 button {
@@ -80,6 +112,7 @@ button {
     grid-area: author-icon;
     border-radius: 50%;
     width: 100px;
+    margin: 0.5rem 0.5rem 0.5rem 0;
 }
 #post-container .post-date {
     grid-area: date;
@@ -94,11 +127,13 @@ button {
 }
 .post-body img {
     display: block;
+    max-width: 100%;
 }
 #post-container #no-content {
     position: relative;
     text-align: center;
-    margin-top: 10rem;
+    max-height: 70vh;
+    padding: 5rem 0 5rem 0;
     color: rgb(100, 100, 100);
 }
 #post-area {
@@ -117,15 +152,51 @@ button {
     width: 1.5em;
     height: 1.5em;
 }
-.page-nav-list-button {
-
-}
 .current-page-button {
-
+    background-color: rgb(100, 190, 255);
 }
 #post-area #page-nav #page-nav-list #page-nav-list-first {
     margin-right: 1rem;
 }
 #post-area #page-nav #page-nav-list #page-nav-list-last {
     margin-left: 1rem;
+}
+.go-back-button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.5rem;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+    margin-bottom: 3rem;
+}
+#footer {
+    padding: 2rem;
+    color: rgb(255, 255, 255);
+}
+#footer p {
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+#footer p:first-child {
+    margin: 0 0 0.5rem 0;
+}
+
+@media (max-width:1000px){
+    #title {
+        text-align: center;
+        width: 100%;
+    }
+    #title + span {
+        margin-left: auto;
+    }
+    #page-title {
+        margin: 0;
+    }
+    #page-title + span {
+        display: inline;
+        margin-right: auto;
+    }
+    #post-container .post {
+        max-width: 95%;
+    }
 }

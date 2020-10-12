@@ -157,10 +157,11 @@ thePromise.then((res)=>{
     }
     updatePosts();
 
-    /* DELETE NO CONTENT MESSAGE IF ANY CONTENT IS AVAILABLE */
+    /* NO CONTENT MESSAGE IF CONTENT IS UNAVAILABLE */
     if(!document.querySelector("#post-container .post")){
         let noContent = document.querySelector("#post-container");
         noContent.innerHTML = `<h1 id="no-content">No Content</h1>`;
+        pageNavList.innerHTML = "";
     }
     /* NO CONTENT END ====================================== */
 });

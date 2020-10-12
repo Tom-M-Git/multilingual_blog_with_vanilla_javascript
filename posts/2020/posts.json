@@ -2,6 +2,40 @@
     "year": "2020",
     "posts": [
         {
+            "date": "2020-10-12",
+            "locale": {
+                "en": {
+                    "date_local": "Oct. 12, 2020",
+                    "author": "Tomoaki Morioka",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "About",
+                    "thumbnail_url": "",
+                    "title": "About This Website",
+                    "body": "<h2>Welcome to my website!</h2><br /><p>This is a mock blog site for my project.</p><br /><h2>How it works</h2><br /><p>The order of posts is reverse chronological as well as most blogs. It's done by simply putting every post above in the objects so there's no ordering functionality also.</p>",
+                    "tag": []
+                },
+                "ja": {
+                    "date_local": "2020年10月12日",
+                    "author": "森岡 知映",
+                    "author_icon_url": "img/tomoaki-morioka-icon.jpg",
+                    "category": "About",
+                    "thumbnail_url": "",
+                    "title": "About — このウェブサイトについて",
+                    "body": "yes",
+                    "tag": []
+                },
+                "ko": {
+                    "date_local": "",
+                    "author": "",
+                    "category": "",
+                    "thumbnail_url": "",
+                    "title": "",
+                    "body": "",
+                    "tag": []
+                }
+            }
+        },
+        {
             "date": "2020-10-11",
             "locale": {
                 "en": {
