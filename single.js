@@ -25,16 +25,23 @@ thePromise.then((res)=>{
         englishTitle = englishTitle.replace(/[\W_\s]+/igm, "_");
         let postDate = post.date.replace(/-/g, "_");
         let permalink = "#" + postDate + "_" + englishTitle;
-        console.log(permalink);
         /* Permalinks End ------------------------------------- */
 
         /* A FUNCTION TO INSERT CONTENT TO DOM ---------------- */
         function displayPosts(value){
 
+            /* fixing images --------- */
             if(value.body == ""){return;}
             let regex = /(?<=<img.*)(?<=src="|src=')(?!http)[^'"]+(?='|")/img;
             let matched = value.body.match(regex);
-            value.body = value.body.replace(regex, "../posts/2020/" + matched);
+            if(matched){
+                matched.forEach( (eachMatched) => {
+                    value.body = value.body.replace(eachMatched, "../posts/2020/" + eachMatched);
+                });
+            } else {
+                value.body = value.body.replace(regex, "../posts/2020/" + matched);
+            }
+            /* fixing images END ----- */
 
             let newThumbnailUrl = "";
             if(value.thumbnail_url != ""){

@@ -10,8 +10,8 @@
                     "author_icon_url": "img/tomoaki-morioka-icon.jpg",
                     "category": "About",
                     "thumbnail_url": "",
-                    "title": "About This Website",
-                    "body": "<h2>Welcome to my website!</h2><br /><p>This is a mock blog site for my project.</p><br /><h2>How it works</h2><br /><p>The order of posts is reverse chronological as well as most blogs. It's done by simply putting every post above in the objects so there's no ordering functionality also.</p>",
+                    "title": "About This Website (README)",
+                    "body": "<h2>Welcome to my website!</h2><br /><p>This is a mock blog site of my project. You can click on each title or \"Read…\" to view a post with an example article.<br />This is <strong>multilingual</strong>. Choose a language from the buttons to swtich the language. You can switch it in both the archive and each post. If you go into another language in Archive, the same Archive in that language shows up; the same thing for the article/post page. If you go into the language that doesn't have the corresponding content/support the same content—<em><strong>Korean</strong></em>* in this case, there'll be \"<em>No content</em>\".</p><br /><p>This website uses <span style='color:rgb(220, 100, 0)'>HTML</span>, <span style='color:rgb(0, 160, 220)'>CSS</span> and <span style='color:rgb(200, 160, 0)'>Javascript</span> with <strong>no library, framework or backend</strong>.</p><br /><p>Currently 3 languages are used: <em>English</em>, <em>Japanese</em> and <em>Korean</em>.</p><br /><p>*We're not planning to add full support for the <em>Korean</em> language at the moment.</p><br /><h2>How it works</h2><br /><p>For the sake of <em>no library or framework</em>, we didn't add any internationalization/localization tool such as <em>gettext.js</em>, <em>i18njs</em>, etc.<br />All posts in every language are stored in one single <span style='color:rgb(200,160,0)'>JSON</span> file.<br />Images are in an img folder which is a sibling to the JSON file.<br />The website has an <strong>archive</strong> page and an <strong>article/post</strong> page in each locale folder.</p><br /><img src='img/project_screen_shot_folders.jpg' alt='folder structure'><br /><p>All the elements except URLs to each other language, translation in buttons, header and footer, and the <em>lang</em> attribute in those pages are the same (no articles in the html files).</p><br /><p>After fetching the data from JSON, the script loops through posts objects, checks the lang attribute to <strong>match the locale</strong> in every post, <strong>then appends</strong> the inner content to html. That is to keep html much simpler and easier to maintain.</p><br /><p>To make it so that each article shows up in a single page, the script <strong>creates a hash link</strong> from each post and appends it to the post's url to the only post.html page, then when you go there, the script <strong>checks the hash</strong> to show only the corresponding post. This made it possible to temporarily provide all post pages for as many posts as we want.</p><br /><img src='img/project_screen_shot_hash.jpg' alt='hash in url'><br /><p>The order of posts is reverse chronological as well as most blogs. It's done by simply putting every post above the previous in the objects so there's <strong>no ordering functionality</strong> actually.</p><br /><p><strong>Pagination</strong> is done by counting pages from the number of posts, appending a specified number of buttons to DOM and getting each attribute's value (the page number). Then replaces the current page number in the config with that value when a user clicks a button.<br />But when the selected button is bigger than the median in the page navigation e.g. the center of the diplayed buttons, the selected button stays in the center so new buttons show up and vice versa unless there's no more button on the side.<br /><img src='img/project_screen_shot_pagination1.jpg' alt='button in page nav centered'><br /><img src='img/project_screen_shot_pagination2.jpg' alt='no more button on the side in page nav'><br />The list of posts changes by calculating a beginning and an ending of a list according to the current page number.</p><br /><p>*Currently, although our post objects have tags and categories, we're not planning to support those types of data to function.</p><br /><h2>Thank you for visiting the project</h2><br /><p>Author: Tomoaki Morioka<br /><br />Project started: October 2020</p>",
                     "tag": []
                 },
                 "ja": {
@@ -20,7 +20,7 @@
                     "author_icon_url": "img/tomoaki-morioka-icon.jpg",
                     "category": "About",
                     "thumbnail_url": "",
-                    "title": "About — このウェブサイトについて",
+                    "title": "About — このウェブサイトについて (README)",
                     "body": "yes",
                     "tag": []
                 },
@@ -45,7 +45,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 32nd test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -55,7 +55,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その32",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -79,7 +79,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 31st test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -89,7 +89,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その31",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -113,7 +113,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 30th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -123,7 +123,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その30",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -147,7 +147,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 29th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -157,7 +157,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その29",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -181,7 +181,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 28th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -191,7 +191,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その28",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -215,7 +215,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 27th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -225,7 +225,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その27",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -249,7 +249,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 26th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -259,7 +259,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その26",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -283,7 +283,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 25th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -293,7 +293,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その25",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -317,7 +317,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 24th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -327,7 +327,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その24",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -351,7 +351,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 23rd test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -361,7 +361,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その23",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -385,7 +385,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 22nd test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -395,7 +395,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その22",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -419,7 +419,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 21st test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -429,7 +429,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その21",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -453,7 +453,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 20th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -463,7 +463,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その20",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -487,7 +487,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 19th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -497,7 +497,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その19",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -521,7 +521,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 18th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -531,7 +531,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その18",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -555,7 +555,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 17th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -565,7 +565,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その17",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -589,7 +589,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 16th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -599,7 +599,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その16",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -623,7 +623,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 15th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -633,7 +633,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その15",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -657,7 +657,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 14th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -667,7 +667,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その14",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -691,7 +691,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "The 13th test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -701,7 +701,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "img/pexels-soulful-pizza-5157885-thumb.jpg",
                     "title": "テスト投稿その13",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {
@@ -1101,7 +1101,7 @@
                     "category": "Uncategorized",
                     "thumbnail_url": "",
                     "title": "The 1st test post",
-                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing localization and blogging in the JSON format. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "Test. This is an example article. There are multiple languages in the website. Hello. How are you? Good Morning. Welcome to my website. Currently testing internationalization and blogging. <br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ja": {
@@ -1111,7 +1111,7 @@
                     "category": "カテゴリーなし",
                     "thumbnail_url": "",
                     "title": "最初のテスト投稿",
-                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在ローカライゼーションとブログ機能をJSONフォーマットで試験中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
+                    "body": "テスト。これは例文です。本サイトでは複数言語が使用されています。こんにちは。調子はいかがですか？おはようございます。本ウェブサイトへようこそ。現在インターナショナライゼーションとブログ機能をテスト中です。<br /> <img alt='example' src='img/pexels-soulful-pizza-5157885.jpg'> <em>Photo by Soulful Pizza from Pexels</em> <br /> <img src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Havana_Brown_-_choco.jpg' alt='an external image'><em>Photo: Havana Brown from Wikipedia</em>",
                     "tag": []
                 },
                 "ko": {

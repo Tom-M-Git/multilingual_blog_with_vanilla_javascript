@@ -107,6 +107,7 @@ button {
 }
 #post-container .post-author{
     grid-area: author;
+    margin-top: 0.5rem;
 }
 #post-container .post-author-icon{
     grid-area: author-icon;
@@ -124,6 +125,7 @@ button {
 #post-container .post-body {
     grid-area: body;
     padding-top: 1rem;
+    color: rgb(70, 70, 70);
 }
 .post-body img {
     display: block;

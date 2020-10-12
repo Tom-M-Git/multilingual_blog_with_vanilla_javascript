@@ -118,7 +118,13 @@ thePromise.then((res)=>{
                 if(value.body == ""){return;}
                 let regex = new RegExp(`(?<=<img.*)(?<=src="|src=')(?!http)[^'"]+(?='|")`, `img`);
                 let matched = value.body.match(regex);
-                value.body = value.body.replace(regex, "../posts/2020/" + matched);
+                if(matched){
+                    matched.forEach( (eachMatched) => {
+                        value.body = value.body.replace(eachMatched, "../posts/2020/" + eachMatched);
+                    });
+                } else {
+                    value.body = value.body.replace(regex, "../posts/2020/" + matched);
+                }
                 value.body = value.body.replace(/(\.\.\/posts\/2020\/){2,}/igm, "../posts/2020/");//delete duplicates in urls
 
                 let newThumbnailUrl = "";
