@@ -101,6 +101,10 @@ button {
 }
 #post-container .post-thumbnail{
     grid-area: thumbnail;
+    margin-left: 0.3rem;
+}
+#post-container .post-thumbnail img{
+    max-width: 100%;
 }
 #post-container .post-title{
     grid-area: title;
